@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: aqua;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.container{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: flex-start;
+    height: 100vh;
+   }
+
+.landingText{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* centers text vertically */
+    justify-content: center;
+    /* centers horizontally */
+    align-items: center; 
+    
+}
+
+
+.imgLanding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.book{
+    width: 300px;
+    height: 300px;
+}
+
+.about{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: blue;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vh;
+    height: 40vh;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 20%;
+
+}
+
+.knots { 
+    height: 150px;
+    width: 150px;
+    border-radius: 70%;
+}
